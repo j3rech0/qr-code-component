@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: 0, 0%, 100%;
+  --light-gray: 212, 45%, 89%;
+  --grayish-blue: 220, 15%, 55%;
+  --dark-blue: 218, 44%, 22%;
+  --blue: 216.23 95.39% 57.45%;
+  --light-blue: 216.3 99.01% 60.39%;
+
+  --color-white: hsl(var(--white));
+  --color-light-gray: hsl(var(--light-gray));
+  --color-grayish-blue: hsl(var(--grayish-blue));
+  --color-dark-blue: hsl(var(--dark-blue));
+  --color-blue: hsl(var(--blue));
+  --color-light-blue: hsl(var(--light-blue));
+  --font-size: 15px;
+  --font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 90vh;
+  display: grid;
+  place-content: center;
+  font-family: var(--font-family);
+  background-color: hsl(var(--light-gray));
+}
+
+.▌│█║▌║▌║ {
+  width: 100%;
+  max-width: 290px;
+  margin-inline: auto;
+  background-color: var(--color-white);
+  background-image: 
+  // dots
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    // end dots
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(var(--color-white), var(--color-white)),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, var(--color-white) 6Q),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, var(--color-white) 6Q),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(90deg, var(--color-white) 6Q, transparent 6Q),
+    linear-gradient(var(--color-white) 6Q, transparent 6Q),
+    radial-gradient(
+      circle,
+      var(--color-light-blue),
+      var(--color-light-blue) 49%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle,
+      var(--color-light-blue),
+      var(--color-light-blue) 49%,
+      transparent 50%
+    ),
+    linear-gradient(var(--color-blue), var(--color-blue));
+  background-size: 
+  // dots
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q, 5Q 5Q,
+    // end dots
+    16Q 17Q,
+    38Q 38Q, 40Q, 38Q 38Q, 40Q, 16Q 17Q, 38Q 38Q, 40Q, 38Q 38Q, 40Q, 16Q 17Q,
+    38Q 38Q, 40Q, 38Q 38Q, 40Q, 528Q 360Q, 430Q, 100% 288px;
+  background-position: 
+   // dots
+    63px 108px, 75px 108px, 90px 108px, 134px 108px, 150px 108px, 156px 108px,
+    161px 108px, 167px 108px, 189px 108px, 194px 108px, 204px 108px, 209px 108px,
+    209px 103px, 199px 103px, 204px 103px, 183px 103px, 178px 103px, 167px 103px,
+    155px 103px, 150px 103px, 120px 103px, 109px 103px, 96px 103px, 63px 103px,
+    109px 98px, 125px 98px, 140px 98px, 145px 98px, 150px 98px, 161px 98px,
+    173px 98px, 109px 93px, 120px 93px, 130px 93px, 140px 93px, 150px 93px,
+    161px 93px, 173px 93px, 115px 88px, 130px 88px, 145px 88px, 173px 88px,
+    168px 83px, 173px 83px, 150px 83px, 145px 83px, 115px 83px, 173px 78px,
+    125px 78px, 150px 78px, 155px 78px, 173px 73px, 109px 68px, 115px 68px,
+    120px 63px, 125px 68px, 130px 68px, 135px 68px, 145px 63px, 150px 63px,
+    161px 63px, 109px 78px, 115px 73px, 140px 68px, 173px 68px, 155px 68px,
+    150px 68px, 135px 73px, 130px 73px, 145px 73px, 120px 73px, 161px 73px,
+    115px 78px, 109px 73px, 195px 74px, 217px 64px, 185px 64px, 184px 64px,
+    185px 95px, 74px 196px, 95px 185px, 63px 185px, 63px 185px, 63px 218px,
+    74px 73px, 95px 63px, 63px 95px, 63px 63px, 63px 63px, -228px -178px,
+    49px 190px, 0px 0px;
+
+  background-repeat: no-repeat;
+  outline: 15px solid white;
+  padding-top: 288px;
+  padding-bottom: 0;
+  letter-spacing: 0.6px;
+  border-radius: 10px;
+  box-shadow: 0px 178px 0px 15px white;
+  > .heading-2,
+  > .heading-1 {
+    font-size: 22px;
+    font-family: var(--font-family);
+    color: var(--color-dark-blue);
+    
+  }
+  > .heading-1{
+    font-weight: 700;
+  }
+  &::before,
+  &::after {
+    font-family: var(--font-family);
+    color: var(--color-dark-blue);
+    display: block;
+    text-align: center;
+  }
+  &::before {
+    content: attr(data-heading);
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: -20px;
+    font-weight: 700;
+  }
+  &::after {
+    content: attr(data-slogan);
+    color: var(--color-grayish-blue);
+    margin-bottom: -200px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+}
